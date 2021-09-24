@@ -1,0 +1,53 @@
+#trencung {position:relative;height:250px;width:100%; 
+    background-image: url("ab3.png");}
+#trencung1 {position:absolute;bottom:0;
+    height:75px;width:100%; }
+#cssmu { position:absolute; bottom:0px; left: 20%;
+width: 80%; border-top-left-radius: 50px;;
+}
+#cssmu li {display:inline; padding:12px;
+ border:1px solid red;
+margin: 5px; float:left; border-radius:10px;
+}
+#cssmu a{text-decoration:none; color: black; }
+#cssmu input{ position:absolute; right:50px; bottom:5px;}
+/*                ========== ben phai ==============
+     ======================== */
+
+#bentrai {width:500px; height:1000px; }
+#bentrai img {height:300px; width:500px; position:sticky; top:500px;} 
+#bentrai1 {position:relative;width:500px; height:300px;
+     }
+
+#bentrai1 h1 {text-align:center;}
+#cssform  form { box-shadow:-3px -3px 5px #835151;}
+#cssform label {margin:20px;}
+#cssform input {margin:10px;}
+
+/* ================================== */
+
+#benphai {position:absolute;width:500px; height:1000px; 
+    right:0px;top:260px;}
+    #benphai img{height:300px; width:500px;}
+#benphai1 {width:500px; height:500px; }
+#benphai1 li {height:50px;width:400px; border:1px solid red;
+display: block; text-align:center;padding:25px 0 25px 0; margin:20px 0;
+border-radius:20px; box-shadow:3px 3px 5px #835151;
+}
+#benphai1 a {text-decoration:none;font-size: 50px;
+}
+
+/* =============== */
+#giua {position:absolute;width:880px; height:auto; 
+    left:515px;top:260px;border: 1px solid red;}
+#giua1 {width:880px; height:auto; text-align:center;
+        left:515px;top:260px;border: 1px solid blue;}
+#giua1 p{color:green; height:965px;}
+        /*===================*/
+
+#duoicung {height:250px;width:100%;
+bottom:0; text-align:center; border-top: 1px solid red;
+}
+#duoicung h1{ font-size:100px;
+color:rgb(90, 12, 12); text-shadow:5px 5px 30px red; 
+}

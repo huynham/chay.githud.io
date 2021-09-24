@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>khung giao dien</title>
+<link rel="stylesheet" href="vscheckcss1.css">
+<script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+<script type="text/babel">
+/*                    ========== phan dau tren cung ================= */
+class Trencung extends React.Component {
+ render() {
+return (  <div id="cssmu">
+    
+    <ul> 
+    <li> <a href="#" onClick={this.Menutrch}> trang chu </a></li>
+    <li> <a href="#" onClick={this.Menugith}> gioi thieu </a></li>
+    <li> <a href="#" onClick={this.Menulh}> lien he </a></li>
+    <li> <a href="#" onClick={this.Menutd}> Tuyen dung </a></li>
+    </ul>
+    <input type="text"  style={{width:"300px", marginRight:"100px"}} />
+    <input type="button" value="search" onClick={()=>alert("chuc nang chua co")}/>
+    </div>
+    );
+}
+Menutrch(){
+const ndtrch = <h1>  noi dung trang chu</h1>
+ReactDOM.render(ndtrch,document.getElementById('giua1'));
+}
+Menugith(){
+const ndgith = <h1> gioi thieu o day nhe </h1>
+ReactDOM.render(ndgith,document.getElementById("giua1"));
+}
+Menulh(){
+const ndlh = <h1> lien he voi chung toi qua .... </h1>
+ReactDOM.render(ndlh,document.getElementById("giua1"));
+}
+Menutd(){
+const ndtd = <h1> thong tin tuyen dung nhe </h1>
+ReactDOM.render(ndtd,document.getElementById("giua1"));
+}
+
+}
+ReactDOM.render(<Trencung />,document.getElementById('trencung1'));
+
+class Bentrai extends React.Component{
+render(){
+return (<div id="cssform">
+    <h1> Gửi thông tin cho chúng tôi theo Form bên dưới nhé </h1><br/>
+          <form>
+            <fieldset>
+            <legend> Bạn Đăng Nhập Nhé </legend>
+            <label> Tên Đăng Nhập : </label>
+            <input type="text" /><br/>
+            <label> Password : </label>
+            <input type="text" style={{marginLeft:"50px"}}/><br/>
+            <input type="button" value="dang nhap" style={{marginLeft:"200px"}} onClick={()=>alert("chuc nang dang xay dung")} />
+            </fieldset>
+            </form>
+            <br/><br/>
+    
+        </div>
+        )
+
+}
+}
+ReactDOM.render(<Bentrai />,document.getElementById('bentrai1'));
+
+/*                 ============ */
+class Benphai extends React.Component {
+ render(){
+    return (  <div id="cssbenphai">
+        <ul> 
+    <li> <a href="#" onClick={this.Hienhtml}> hoc html </a></li>
+    <li> <a href="#" onClick={this.Hiencss}> hoc css </a></li>
+    <li> <a href="#" onClick={this.Hienjava}> hoc java </a></li>
+    <li> <a href="#" onClick={this.Hienreact}> hoc reactjs </a></li>
+    </ul>
+    </div>
+    );
+}
+
+ Hienhtml(){
+
+ const hhtml = <h1> Hoc HTML </h1>
+ReactDOM.render(hhtml,document.getElementById('giua1'));
+ }
+ Hiencss(){
+
+const hcss = <h1> Hoc CSS </h1>
+ReactDOM.render(hcss,document.getElementById('giua1'));
+}
+
+Hienjava(){
+
+const hjava = <h1> Hoc JAVA </h1>
+ReactDOM.render(hjava,document.getElementById('giua1'));
+}
+
+Hienreact(){
+
+const hreact = <h1> Hoc REACT </h1>
+ReactDOM.render(hreact,document.getElementById('giua1'));
+}
+}
+ReactDOM.render(<Benphai />,document.getElementById('benphai1'));
+
+class Duoicung extends React.Component{
+
+
+    render(){
+return (<div>
+    <h3> dia chi : trai dat <br/> Dien Thoai :.... <br/> Emanil :....</h3>
+    <h1> what is search ? </h1></div>)
+
+    }
+}
+ReactDOM.render(<Duoicung />,document.getElementById("duoicung1"));
+</script>
+</head>
+<body>
+
+<div id="trencung">
+<div id="trencung1"> 
+    
+
+</div>
+</div>
+
+<div id="bentrai"> 
+    <div id="bentrai1">
+       
+
+    </div>
+    <h1 style="text-align:center">sticky</h1>
+    <img src="meotom.jpg" />
+    </div>
+
+    <div id="giua">
+        <div id="giua1">
+            <h1>  noi dung trang chu</h1>
+
+        </div>
+  
+        </div>
+
+<div id="benphai">
+<div id="benphai1"></div>
+<img src="ab.jpg" />
+</div>
+
+
+<div id="duoicung">
+<div id="duoicung1"> </div>
+
+</div>
+
+
+</body>
+</html>
