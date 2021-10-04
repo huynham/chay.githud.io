@@ -1,0 +1,385 @@
+body {margin:0;padding:0;}
+
+
+#toantrang {width:100%;height:auto; background-color: #F6F8F9;}
+
+#menu {width:100%; height:auto;}
+  #menutren {width:100%; height: 50px; 
+    background-color: #F6F8F9; }
+    
+    #toantrang #menu #menutren .menubagach {display:none;}
+    #toantrang #menu #menutren .menubagach2 {display:none;}
+
+    .logo {color:red; float:left;padding-left: 30px; }
+.menucon {
+  width:100%;
+  padding:15px 0px;
+  position:absolute;
+  top:100%;
+  left:0px;
+  display:none;
+
+}
+.menucon a {text-decoration: none; color:black; opacity:0.5;}
+.home .menucon li { display:block;
+  font-size:16px;  width: 200px;
+  padding: 10px 0; background-color: #F6F8F9;
+
+
+      }
+.home:hover .menucon {display:block; position: absolute; z-index: 2;}
+.menucon li:hover a{opacity:1;}
+     .menuchinh { float:right; }
+     #menutren img {float:right; padding-right:30px; display:block; margin:10px 0 10px 10px;}
+     .menuchinh li {display:inline;padding: 0 10px 0 10px; position: relative;}
+     
+#menutraiphai {width:100%;height:auto;position:relative}
+#menutrai {width: 62%; height:601px; 
+  border:1px solid #F6F8F9 ; background-image: url("./dulieuweb/Image1.png"); 
+  background-size: 100% 100%; 
+}
+
+   .menutraicon{width:54%; height:247px; margin:auto; margin-top:15%;
+     position:relative;}
+   .menutraicon h1 {color:white;position:absolute; left:0; top:0; }
+   .menutraicon hr {color:white; position:absolute; left:0; top:30%; width:100%;
+      height:2px; background-color:white; }
+    .menutraicon h2 {color:white; position:absolute; left:0; top:40%;}
+    .menutraicon p { color:white; position:absolute; left:0; top:60%;}
+    .menutraicon img { position:absolute; left:0; top:100%; }
+
+#menuphai {width:38%;height:600px; position:absolute;top:0;right:0;}
+.menuphai1 {width:70%; height:480px;  margin:100px 0 0 110px;}
+   .menuphaicon1 {width:65%;height:60px; 
+  position:relative;}
+   .menuphaicon1 h2 {margin: 0 0 10px 0;}
+   .menuphaicon1 .anh1 {position:absolute;top:0 ;left:90%;}
+   .menuphaicon1 .anh2 {position:absolute;top:0 ;left:100%;}
+   .menuphaicon1 hr {color: black; position:absolute; left:0; bottom:0; width:100%;
+     }
+.menuphaicon2 { width: 65%; height: 350px;}
+   .menuphaicon2 h3 {color:red;}
+   .menuphaicon2 h3:nth-child(2) {color:black;}
+   .menuphaicon2 p {opacity: 0.5; font-weight: bold;}
+   .menuphaicon2 .h34 {color:black;}
+
+
+/* phan giua ======================================================*/
+
+#phangiua {width:65%; height:auto;margin: 0 auto;}
+     #phan1 {width:100%; height: 410px; position:relative;}
+       
+       .phan1con1 {width:30%; height:340px;position:absolute; bottom:0;
+              left:0;}
+          .phan1img1 {width:100%; height:180px;}
+          .phan1h31 { margin-left:35px;}
+          .phan1p1 {margin-left:35px;}
+          .phan1img2 {margin-left:35px;}
+
+        #phan1con2 {display:none;}
+        #phan1con3 {display:none;}
+
+       .phan1con2 {width:30%; height:340px;  position:absolute; 
+              bottom:0; left:33%; margin: 0 5px 0 15px;}
+              .phan1con2img1 {width:100%; height:180px;}
+              .phan1con2h31 { margin-left:35px;}
+              .phan1con2p1 {margin-left:35px;}
+              .phan1con2img2 {margin-left:35px;}
+
+        .phan1con3 {width:30%; height:340px;  position:absolute; 
+               bottom:0; right:0;}
+                .phan1con3img1 {width:100%; height:180px;}
+                .phan1con3h31 { margin-left:35px;}
+                .phan1con3p1 {margin-left:35px;}
+                .phan1con3img2 {margin-left:35px;}
+
+    #phan2 {width:100%;height:auto; position:relative;}
+      .phan2-1 {width:64%; height:auto;}
+         .phan2-1-1 { width:100%; height:430px;  background-image: url("dulieuweb/Image5.png");
+                   background-size: 100% 100%;  padding-top:10px;      }
+              .phan2-1-1h31 {color:white; margin: 30px 0 0 50px;}
+              .phan2-1-1h21 {color:white; margin: 200px 0 0 30px;}
+              .phan2-1-1p1 {color:white;  margin: 10px 0 0 30px;}
+              .phan2-1-1img1 {margin: 20px 0 0 30px;}
+
+         .phan2-1-2 { width:100%; height:430px; margin-top:30px;
+                background-image: url("dulieuweb/Image@2x.png"); padding-top: 10px; }
+                  .phan2-1-2h31 {color:white; margin: 30px 0 0 30px;}
+                  .phan2-1-2h21 {color:white; margin: 200px 0 0 30px;}
+                  .phan2-1-2p1 {color:white;  margin: 10px 0 0 30px;}
+                  .phan2-1-2img1 {margin: 20px 0 0 30px;}  
+
+      .phan2-2 { width:30%; height:auto; position:absolute;
+                   top:0;right:0; }
+          .phan2-2img1 {position:absolute;top:20px ;right:55px;}
+          .phan2-2img2 {position:absolute;top:20px ;right:5px;}
+        .phan2-2-1 { width:100%;height:285px;margin: 60px 0 0 0;}
+           .phan2-2-1img1 {width:100%; height:205px; }
+           .phan2-2-1img2  {margin: 0 10px 0 0; float:left;}
+           .phan2-2-1p1  {color:#A6ADB4; margin:0 0 50px 0;}
+           .phan2-2-1p1 a {color:#A6ADB4; margin:0 0 50px 0;}
+        .phan2-2-2 { width:100%;height:285px;  margin: 20px 0 0 0;}
+           .phan2-2-2img1 {width:100%; height:205px; }
+           .phan2-2-2img2  {margin: 0 10px 0 0; float:left;}
+           .phan2-2-2p1  {color:#A6ADB4; margin:0 0 50px 0;}
+           .phan2-2-2p1 a {color:#A6ADB4; margin:0 0 50px 0;}
+        .phan2-2-3 { width:100%;height:285px;  margin: 20px 0 0 0;}
+           .phan2-2-3img1 {width:100%; height:205px; }
+           .phan2-2-3img2  {margin: 0 10px 0 0; float:left;}
+           .phan2-2-3p1  {color:#A6ADB4; margin:0 0 50px 0;}
+           .phan2-2-3p1 a {color:#A6ADB4; margin:0 0 50px 0;}
+
+/* PHAN CUOI ===========================*/
+
+#phancuoi {width:100%;height:200px; background-color:#A6ADB4; margin-top: 40px}
+     #phanchinh {width:65%; height:200px; margin:0 auto; position:relative;}
+         .phanchinh1 {width:40%;height:86px;
+                position:absolute;top:70px;left:0;}
+            .phanchinh1-p {color:white; font-size: 17px; margin:0;padding:0;float:left;}
+            .phanchinh1-ul1 {margin:0;padding:0; position:absolute;top:0;
+              left:30%;}
+            .phanchinh1-ul1 li {font-size: 15px; list-style-type: none; color: #CBD0D3;}
+            .phanchinh1-ul2 {margin:0;padding:0; position:absolute;top:0;
+              left:55%;  }
+            .phanchinh1-ul2 li {font-size: 15px; list-style-type: none; color: #CBD0D3;}
+            .phanchinh1-ul3 {margin:0;padding:0; position:absolute;top:0;
+              right:5px; }
+            .phanchinh1-ul3 li {font-size: 15px; list-style-type: none; color: #CBD0D3;}
+
+         .phanchinh2 {width:30%;height:86px; position:absolute;
+                 top:70px; left:35%;}
+              .phanchinh2-input {width:60%;height:40px; position:absolute; top:0;right:5px;
+                  color:#CBD0D3; background-color: #A6ADB4; border:1px solid #CBD0D3;}
+              .phanchinh2-img {position:absolute; top:15px;right:15px;}
+              .phanchinh2-p {font-size: 10px; color: #CBD0D3; position:absolute;
+                     left:38%; top:45px;}
+
+         .phanchinh3 {width:30%;height:86px;  position:absolute;
+                top:70px;right:0;}
+            .phanchinh3-ul1 {position:absolute; top:0;right:0; margin:0; padding:0;}
+            .phanchinh3-ul1 li {display: inline;margin: 0 0 0 10px;}
+
+         
+
+/*  man hinh   =====================*/
+
+@media only screen and (min-width:1024px) and (max-width:1200px){
+
+  body {margin:0;padding:0;}
+  #toantrang {max-width:100%;height:auto; background-color: #F6F8F9;}
+  #menu {width:100%; height:auto;}
+  
+  #toantrang #menu #menutren .menubagach {display:none;}
+  #toantrang #menu #menutren .menubagach2 {display:none;}
+
+  #phangiua {width:100%; height:auto;margin: 0 auto;}
+  #phan1con2 {display:none;}
+  #phan1con3 {display:none;}
+  #phanchinh {width:80%; height:200px; margin:0 auto; position:relative;}
+  #phancuoi {width:100%;height:200px; background-color:#A6ADB4; margin-top: 40px}
+
+
+}
+ @media only  screen and (min-width:768px) and (max-width:1023px){
+  body {margin:0;padding:0;}
+  #toantrang {max-width:100%;height:auto; background-color: #F6F8F9;}
+
+  #toantrang #menu #menutren .menubagach {display:none;}
+  #toantrang #menu #menutren .menubagach2 {display:none;}
+#menutraiphai {width:100%;height:auto;position:relative}
+#menutrai {width: 100%; height:601px; 
+  border:1px solid #F6F8F9 ; background-image: url("./dulieuweb/Image1.png"); 
+  background-size: 100% 100%; 
+}
+
+   .menutraicon{width:54%; height:247px; margin:auto; margin-top:15%;
+     position:relative;}
+   .menutraicon h1 {color:white;position:absolute; left:0; top:0; }
+   .menutraicon hr {color:white; position:absolute; left:0; top:30%; width:100%;
+      height:2px; background-color:white; }
+    .menutraicon h2 {color:white; position:absolute; left:0; top:40%;}
+    .menutraicon p { color:white; position:absolute; left:0; top:60%;}
+    .menutraicon img { position:absolute; left:0; top:100%; }
+
+#menuphai {width:100%;height:600px; position:relative;}
+.menuphai1 {width:70%; height:480px;  margin:100px 0 0 110px;}
+   .menuphaicon1 {width:65%;height:60px; 
+  position:relative;}
+   .menuphaicon1 h2 {margin: 0 0 10px 0;}
+   .menuphaicon1 .anh1 {position:absolute;top:0 ;left:90%;}
+   .menuphaicon1 .anh2 {position:absolute;top:0 ;left:100%;}
+   .menuphaicon1 hr {color: black; position:absolute; left:0; bottom:0; width:100%;
+     }
+.menuphaicon2 { width: 65%; height: 350px;}
+   .menuphaicon2 h3 {color:red;}
+   .menuphaicon2 h3:nth-child(2) {color:black;}
+   .menuphaicon2 p {opacity: 0.5; font-weight: bold;}
+   .menuphaicon2 .h34 {color:black;}
+
+
+   #phangiua {width:80%; height:auto;margin: 0 auto;}
+   #phan1 {width:100%; height: 410px; position:relative;}
+     
+     .phan1con1 {width:45%; height:340px; }
+        .phan1img1 {width:100%; height:180px;}
+        .phan1h31 { margin-left:35px;}
+        .phan1p1 {margin-left:35px;}
+        .phan1img2 {margin-left:35px;}
+
+        #phan1con2 {display:none;}
+        #phan1con3 {display:none;}
+
+     .phan1con2 {width:45%; height:340px; margin: 0 0 0 150px;}
+            .phan1con2img1 {width:100%; height:180px;}
+            .phan1con2h31 { margin-left:35px;}
+            .phan1con2p1 {margin-left:35px;}
+            .phan1con2img2 {margin-left:35px;}
+
+      .phan1con3 {display:none; width:30%; height:340px;  position:absolute; 
+             bottom:0; right:0;}
+              .phan1con3img1 {width:100%; height:180px;}
+              .phan1con3h31 { margin-left:35px;}
+              .phan1con3p1 {margin-left:35px;}
+              .phan1con3img2 {margin-left:35px;}
+
+   #phan2 {width:100%;height:auto; position:relative;}
+      .phan2-1 {width:100%; height:auto;}
+         .phan2-1-1 { width:100%; height:430px;  background-image: url("dulieuweb/Image5.png");
+                           background-size: 100% 100%;  padding-top:10px;      }
+             .phan2-1-1h31 {color:white; margin: 30px 0 0 50px;}
+            .phan2-1-1h21 {color:white; margin: 200px 0 0 30px;}
+            .phan2-1-1p1 {color:white;  margin: 10px 0 0 30px;}
+            .phan2-1-1img1 {margin: 20px 0 0 30px;}
+        
+            .phan2-1-2 { width:100%; height:430px; margin-top:30px;
+                        background-image: url("dulieuweb/Image@2x.png"); padding-top: 10px; }
+                .phan2-1-2h31 {color:white; margin: 30px 0 0 30px;}
+                .phan2-1-2h21 {color:white; margin: 200px 0 0 30px;}
+                  .phan2-1-2p1 {color:white;  margin: 10px 0 0 30px;}
+                  .phan2-1-2img1 {margin: 20px 0 0 30px;}  
+
+   .phan2-2 { width:100%; height:auto;  margin: 30px 0 0 0;
+              position:relative;       }
+           .phan2-2img1 {display:none;position:absolute;top:20px ;right:55px;}
+           .phan2-2img2 {display:none;position:absolute;top:20px ;right:5px;}
+        .phan2-2-1 { width:45%;height:285px;margin:0;padding:0;
+            position:absolute;top:0;left:0;}
+        .phan2-2-1img1 {width:100%; height:205px; }
+            .phan2-2-1img2  {margin: 0 10px 0 0;}
+            .phan2-2-1p1  {color:#A6ADB4; margin:0 0 50px 0;}
+            .phan2-2-1p1 a {color:#A6ADB4; margin:0 0 50px 0;}
+         .phan2-2-2 { width:45%;height:285px; position:absolute;top:0;right:0; margin:0;padding:0; }
+            .phan2-2-2img1 {width:100%; height:205px; }
+            .phan2-2-2img2  {margin: 0 0 0 0;}
+            .phan2-2-2p1  {color:#A6ADB4; margin:0 0 50px 0;}
+            .phan2-2-2p1 a {color:#A6ADB4; margin:0 0 50px 0;}
+         .phan2-2-3 {display:none; width:100%;height:285px;  margin: 20px 0 0 0;}
+            .phan2-2-3img1 {width:100%; height:205px; }
+            .phan2-2-3img2  {margin: 0 10px 0 0; }
+            .phan2-2-3p1  {color:#A6ADB4; margin:0 0 50px 0;}
+            .phan2-2-3p1 a {color:#A6ADB4; margin:0 0 50px 0;}
+
+   #phancuoi {width:100%;height:auto; background-color:#A6ADB4; margin-top: 400px;}
+            #phanchinh {width:80%; height:300px; margin:0 auto; position:relative;}
+             
+                .phanchinh1 {width:100%;height:86px; }
+                   .phanchinh1-p {color:white; font-size: 17px; margin:0;padding:0;}
+                 .phanchinh1-ul1 {margin:0px 0px 0 50px;}
+                   .phanchinh1-ul1 li {font-size: 15px; list-style-type: none; color: #CBD0D3;}
+                   .phanchinh1-ul2 {margin:0 0 0 10px;  }
+                   .phanchinh1-ul2 li {font-size: 15px; list-style-type: none; color: #CBD0D3;}
+         .phanchinh1-ul3 { margin-right:  80px;}
+                   .phanchinh1-ul3 li {font-size: 15px; list-style-type: none; color: #CBD0D3;}
+       
+            .phanchinh2 {width:50%;height:86px; position:absolute;top:160px;left:0;}
+              
+                     .phanchinh2-input {width:60%;height:40px; margin-right:110px;
+                         color:#CBD0D3; background-color: #A6ADB4;}
+                      .phanchinh2-img {margin-right:120px;}
+                     .phanchinh2-p {font-size: 10px; color: #CBD0D3; position:absolute;top:50px;left:0;}
+       
+                .phanchinh3 {width:50%;height:86px;  position:absolute;top:160px;left:50%;}
+                   .phanchinh3-ul1 {margin:50px 0 0 35%;}
+                   .phanchinh3-ul1 li {display: inline;margin-right:10px;}
+       
+
+
+}
+
+@media only  screen and (min-width:320px) and (max-width:767px){
+
+  #toantrang {max-width:100%;height:auto; background-color: #F6F8F9;}
+
+#menu {width:100%; height:auto; }
+  #menutren {width:100%; height: 50px; 
+    background-color:white; position:relative;}
+    .menubagach {display:none;}
+    
+     .logo { width:30%; position:absolute;top:2px;left:50px; color:red;}
+     .menuimg {position:absolute;top:0px; right:0px;}
+
+
+     
+     .menuchinh {display:none;}
+     #menutraiphai {width:100%;height:auto;}
+  #menutrai { width:100%;background-image: url("dulieuweb/Image1.png");
+        background-size: 100% 100%; position:relative; height:500px; }
+
+
+        .menutraicon {width:100%;height:500px;margin:0;padding:0; } 
+        .menutraicon  h1 {color:white; position:absolute;top:100px; left:0px;}
+        .menutraicon hr {width:80%;margin:0 auto; height:2px; background-color:white;
+              position:absolute;top:200px; left:0px;}
+        .menutraicon h2 {color:white;position:absolute;top:200px;left:0px;}
+        .menutraicon p {color:white;position:absolute;top:270px;left:0px; margin:0;padding:0;}
+        .menutraicon img {position:absolute;top:380px;left:0px; margin:0;padding:0;}
+
+  #menuphai {width:100%; height:auto;margin-top:10px ; position:relative;} 
+      .menuphai1 {  width:100%;height:auto; margin:0;padding:0; }
+      .menuphaicon1 {  width:90%;height:auto; margin:0;padding:0; }
+      .menuphaicon1 hr {display:none;}
+
+      #phangiua {width:100%;height:auto; margin: 0;}
+        #phan1 {width:100%;height:auto;  position:relative;}
+        #phan1 h2 {width:50%; float:left;}
+        .phan1anh1 {position:absolute;top:30px;right:35px;}
+        .phan1anh2 {position:absolute;top:30px; right:5px;}
+      .phan1con1 {width:100%;height:auto; position:relative;}
+         .phan1img1{ width:100%;height:250px; margin:0;padding:0;}
+         .phan1h31, .phan1p1, .phan1img2 {margin:10px 0 10px 0;padding:0; }
+
+          .phan1con2 {display:none;}
+          .phan1con3 {display:none;}
+
+        #phan1con2 { display:none;width:100%;height:auto;  position:relative;  }
+        .phan1con2img1 { display:none;width:100%;height:250px; margin:0;padding:0;}
+        .phan1con2h31, .phan1con2p1, .phan1con2img2 {display:none;margin:10px 0 10px;}
+
+
+
+
+     
+
+        #phan2 {width:100%;height:auto;}
+        .phan2-1 {width:100%;height:auto;}
+        .phan2-1h21 {width:100%;}
+
+    
+ .phan2-2 {position:absolute;top:950px;left:0;width:100%;height:auto;
+       margin:0; padding:0;}
+       
+       .phan2-2-1img1 {width:100%;height:200px; margin:0;padding:0;}
+
+       
+       .phan2-2-2img1 {width:100%;height:200px; margin:0;padding:0;}
+
+       
+       .phan2-2-3img1 {width:100%;height:200px; margin:0;padding:0;}
+     
+      .phan2-2img1,.phan2-2img2 {display:none;}
+
+  #phancuoi {display:none;}
+
+
+
+}
